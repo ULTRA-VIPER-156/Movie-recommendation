@@ -1,0 +1,109 @@
+.HeroContainer {
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+    padding: 40px 0;
+}
+
+.Hero {
+    position: relative;
+    width: 80vh;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    display:flex;
+
+}
+
+.HeroVideo {
+   width:1920px;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+    
+    
+
+}
+
+.Hero-text {
+    position: absolute;
+    bottom: 15px;
+    left: 7px;
+    color: #fff;
+    z-index: 2;
+    background: rgba(2, 2, 2, 0.45);
+    padding: 24px 32px;
+    border-radius: 16px;
+    max-width: 60%;
+
+}
+
+.Hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.Hero-text p {
+    font-size: 1.1rem;
+    margin-bottom: 18px;
+}
+
+.HeroButtons {
+    display: flex;
+    gap: 16px;
+}
+
+.HeroButton {
+    background: #3700ff;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 28px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.HeroButton:hover {
+    background: #00ff75;
+    color: #111;
+    transform: scale(1.06);
+}
+
+.Scroll-Buttons {
+    position: absolute;
+    bottom: 40%;
+     left:12px;
+    right: 12px;
+    display: flex;
+    gap: 600px;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.scroll-left,
+.scroll-right {
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    width: 38px;
+    height: 38px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+
+    
+}
+
+
+.scroll-left:hover,
+.scroll-right:hover {
+    background: #98ffc8;
+    color: #111;
+}
