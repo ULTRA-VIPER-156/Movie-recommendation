@@ -1,38 +1,53 @@
 import './MovieRec.css';
+import Minecraft from "./Componet Files/Trends International A Minecraft Movie - Creeper Feature Series Wall Poster, 34L x 22_4W, Unframed Version.jpeg";
+import AttackOnTitan from "./Componet Files/7e77f738ee2ceab62cec247023e4e3e9.jpg";
+import MyheroAcademia from "./Componet Files/Myhero.jpg";
+import OnePiece from "./Componet Files/Onepiece.jpg";
+import Final from "./Componet Files/Final.jpg";
+import Days from "./Componet Files/298 days lter.jpg";
+import FightClub from "./Componet Files/fightClub.jpg";
+import intersteller from "./Componet Files/Intersteller.jpeg";
+import pulpFiction from "./Componet Files/Pup fiction.jpg";
+import TheLord from "./Componet Files/Thelord of the rings.jpg";
+import Kaiju from "./Componet Files/Kaiju8.jpg";
+import Spy from "./Componet Files/Spyxfamily.jpg";
+import Blue from "./Componet Files/Blue Lock.jpg";
+import Wind from "./Componet Files/Wind Breaker.jpg";
+import theFlash from "./Componet Files/TheFlash.jpg";
+import Marvel from "./Componet Files/The marvels.jpg";
+import Mission from "./Componet Files/Mission Imposiible.jpg";
+import Openheimer from "./Componet Files/openheimer.jpg";
+
 
 function MovieRec() 
 { 
     return (
      <div>
-        <br /><br />
+        <br />
+
         <br />
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        
+                <div className="Dispaly">
+
         <h2 className="MovieRec-title">
             Recommendend Movies 
         </h2>
+         <a className="ExploreMore" href="https://www.themoviedb.org/tv/123456-anime-spring-2024">
+               <h3>
+                Explore More
+                </h3> 
+            </a>
         <div className="Main">
             <br />
             <ul>
                 <li>
+
                     <div className="card1">
                         <h2 className="Movie-title">
                             Minecraft Movie
                         </h2>
-                        <img className="MovieImg" src="https://m.media-amazon.com/images/I/71nXe3u4XCL._AC_UF894,1000_QL80_.jpg" alt="Minecraft Movie" />
+
+                        <img className="MovieImg" src={Minecraft} alt="Minecraft Movie" />
                         <a className='ViewMore' href="https://www.themoviedb.org/movie/123456-minecraft-movie">
                             View More
                         </a>
@@ -82,13 +97,70 @@ function MovieRec()
                         </a>
                     </div>
                 </li>
+                <li>
+                    <div className="card1">
+                        <h2 className="Movie-title">
+                            Interstellar
+                        </h2>
+                        <img className="MovieImg" src={intersteller} alt="Interstellar" />
+                        <a className='ViewMore' href="https://www.themoviedb.org/movie/157336-interstellar">
+
+                            View More
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div className="card1">
+                        <h2 className="Movie-title">
+                            Fight Club
+                        </h2>
+                        <img className="MovieImg" src={FightClub} alt="Fight Club" />
+                        <a className='ViewMore' href="https://www.themoviedb.org/movie/550-fight-club">
+
+                            View More
+                        </a>
+                    </div>
+
+                </li>
+                <li>
+                    <div className="card1">
+                        <h2 className="Movie-title">
+                            Pulp Fiction
+                        </h2>
+                        <img className="MovieImg" src={pulpFiction} alt="Pulp Fiction" />
+                        <a className='ViewMore' href="https://www.themoviedb.org/movie/680-pulp-fiction">
+
+                            View More
+                        </a>
+                    </div>
+
+                </li>
+                <li>
+                    <div className="card1">
+                        <h2 className="Movie-title">
+                            The Lord of ..                       </h2>
+                        <img className="MovieImg" src={TheLord} alt="The Lord of the Rings: The Return of the King" />
+                        <a className='ViewMore' href="https://www.themoviedb.org/movie/122-the-lord-of-the-rings-the-return-of-the-king">
+
+                            View More
+                        </a>
+                    </div>
+
+
+                </li>
             </ul>
         </div>
+        </div>
         <br /><br /><br /><br />
-        <div>
+        <div className="Dispaly">
             <h2 className="MovieRec-title">
                 Anime (spring 2024)
             </h2>
+            <a className="ExploreMore" href="https://www.themoviedb.org/tv/123456-anime-spring-2024">
+               <h3>
+                Explore More
+                </h3> 
+            </a>
             <div className="Main">
                 <ul>
                     <li>
@@ -118,7 +190,7 @@ function MovieRec()
                             <h2 className="Movie-title">
                                 Attack on Titan
                             </h2>
-                            <img className="MovieImg" src="https://image.tmdb.org/t/p/w500/9nBVAX9T2BLPzPYw0xXsm5U5O4x.jpg" alt="Attack on Titan Final Season" />
+                            <img className="MovieImg" src={AttackOnTitan} alt="Attack on Titan Final Season" />
                             <a className='ViewMore' href="https://www.themoviedb.org/movie/123456-attack-on-titan">
                                 View More
                             </a>
@@ -129,7 +201,7 @@ function MovieRec()
                             <h2 className="Movie-title">
                                 My Hero Academia
                             </h2>
-                            <img className="MovieImg" src="https://image.tmdb.org/t/p/w500/a5uPbVBqSgWc8jYh5Y8kHoX35eF.jpg" alt="My Hero Academia: Heroes Rising" />
+                            <img className="MovieImg" src={MyheroAcademia} alt="My Hero Academia: Heroes Rising" />
                             <a className='ViewMore' href="https://www.themoviedb.org/movie/123456-my-hero-academia">
                                 View More
                             </a>
@@ -140,26 +212,80 @@ function MovieRec()
                             <h2 className="Movie-title">
                                 One Piece
                             </h2>
-                            <img className="MovieImg" src="https://image.tmdb.org/t/p/w500/3Rfvhy1Nl6sSGJwyjb0QiZzZYlB.jpg" alt="One Piece: Red" />
+                            <img className="MovieImg" src={OnePiece} alt="One Piece: Red" />
                             <a className='ViewMore' href="https://www.themoviedb.org/movie/123456-one-piece">
                                 View More
                             </a>
                         </div>
                     </li>
+                    <li>
+
+                        <div className="card1"> 
+                            <h2 className="Movie-title">
+                                kaiju No. 8
+                            </h2>
+                            <img className="MovieImg" src={Kaiju} alt="Kaiju No. 8" />
+                            <a className='ViewMore' href="https://www.themoviedb.org/movie/123456-kaiju-no-8">
+                                View More
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="card1">
+                            <h2 className="Movie-title">
+                                Spy x Family
+
+                            </h2>
+                            <img className="MovieImg" src={Spy} alt="Spy x Family" />
+                            <a className='ViewMore' href="https://www.themoviedb.org/movie/123456-spy-x-family">
+
+                                View More
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="card1">
+                            <h2 className="Movie-title">
+                                Blue Lock
+                            </h2>
+                            <img className="MovieImg" src={Blue} alt="Blue Lock" />
+                            <a className='ViewMore' href="https://www.themoviedb.org/movie/123456-blue-lock">
+                                View More
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="card1">
+                            <h2 className="Movie-title">
+                                wind Breaker
+                            </h2>
+                            <img className="MovieImg" src={Wind} alt="Wind Breaker" />
+                            <a className='ViewMore' href="https://www.themoviedb.org/movie/123456-wind-breaker">
+                                View More
+                            </a>
+                        </div>
+                    </li>
+
+
                 </ul>
             </div>
         </div>
         <br /><br /><br /><br />
-        <div>
+        <div className="Dispaly">
             <h2 className="MovieRec-title">
                 Trending Movies
             </h2>
+             <a className="ExploreMore" href="https://www.themoviedb.org/tv/123456-anime-spring-2024">
+               <h3>
+                Explore More
+                </h3> 
+            </a>
             <div className="Main">
                 <ul>
                     <li>
                         <div className="card1">
                             <h2 className="Movie-title">
-                                The Super Mario Bros. Movie
+                                The Super Mario..
                             </h2>
                             <img className="MovieImg" src="https://image.tmdb.org/t/p/w500/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg" alt="The Super Mario Bros. Movie" />
                             <a className='ViewMore' href="https://www.themoviedb.org/movie/123456-the-super-mario-bros-movie">
@@ -172,7 +298,7 @@ function MovieRec()
                             <h2 className="Movie-title">
                                 Final Destination 6
                             </h2>
-                            <img className="MovieImg" src="https://image.tmdb.org/t/p/w500/pTwTH1hG3ueBM9EkYTwC8FkUxJZ.jpg" alt="Final Destination 5" />
+                            <img className="MovieImg" src={Final} alt="Final Destination 5" />
                             <a className='ViewMore' href="https://www.themoviedb.org/movie/123456-final-destination-6">
                                 View More
                             </a>
@@ -192,7 +318,7 @@ function MovieRec()
                     <li>
                         <div className="card1">
                             <h2 className="Movie-title">
-                                Guardians of the Galaxy Vol. 3
+                                Guardians of the...
                             </h2>
                             <img className="MovieImg" src="https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg" alt="Guardians of the Galaxy Vol. 3" />
                             <a className='ViewMore' href="https://www.themoviedb.org/movie/123456-guardians-of-the-galaxy-vol-3">
@@ -205,12 +331,58 @@ function MovieRec()
                             <h2 className="Movie-title">
                                 28 Days Later 
                             </h2>
-                            <img className="MovieImg" src="https://image.tmdb.org/t/p/w500/tH0zVbZpM5y8AAgF46XnYE7vCzg.jpg" alt="28 Days Later" />
+                            <img className="MovieImg" src={Days} alt="28 Days Later" />
                             <a className='ViewMore' href="https://www.themoviedb.org/movie/123456-28-days-later">
                                 View More
                             </a>
                         </div>
                     </li>
+                    <li>
+                        <div className="card1">
+                            <h2 className="Movie-title">
+                                The Flash
+                            </h2>
+                            <img className="MovieImg" src={theFlash} alt="The Flash" />
+                            <a className='ViewMore' href="https://www.themoviedb.org/movie/123456-the-flash">
+                                View More
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="card1">
+                            <h2 className="Movie-title">
+                                The Marvels
+                            </h2>
+                            <img className="MovieImg" src={Marvel} alt="The Marvels" />
+                            <a className='ViewMore' href="https://www.themoviedb.org/movie/123456-the-marvels">
+
+                                View More
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="card1">
+                            <h2 className="Movie-title">
+                                Mission: Impossible.
+                            </h2>
+                            <img className="MovieImg" src={Mission} alt="Mission: Impossible - Dead Reckoning Part One" />
+                            <a className='ViewMore' href="https://www.themoviedb.org/movie/123456-mission-impossible-dead-reckoning-part-one">
+                                View More
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="card1">
+                            <h2 className="Movie-title">
+                                Oppenheimer
+                            </h2>
+                            <img className="MovieImg" src={Openheimer} alt="Oppenheimer" />
+                            <a className='ViewMore' href="https://www.themoviedb.org/movie/123456-oppenheimer">
+                                View More
+                            </a>
+                        </div>
+                    </li>
+
                 </ul>
             </div>
         </div>
