@@ -1,5 +1,5 @@
 import './MoviePlayer.css';
-import Landingid from "./Componet Files/Video/(Cyberpunk Edgerunners) David Martinez.mp4";
+import Landingid from "https://youtu.be/KvMY1uzSC1E?si=qPUdABbNrkCjeXXI";
 
 function HeroVid() {
     return (
