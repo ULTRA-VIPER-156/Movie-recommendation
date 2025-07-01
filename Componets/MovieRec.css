@@ -2,7 +2,7 @@
     flex: 20%;
     width: 190px;
     height: 254px;
-     background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 80%);
+     background-image: linear-gradient(163deg, #1a2cd3 0%, #1a1313 70%);
      border-radius: 20px;
      transition: all .3s;
      margin: 8px;
@@ -12,23 +12,47 @@
 }
 
 
-
+.Dispaly
+{
+    border: 2px #152875;
+    border-radius: 40px;
+    background-color: #131111;
+    display: flexbox;
+    justify-content: center;
+    box-shadow: 0px 20px 0px rgb(0, 0, 0,0.6);
+}
 
 ul
 {
     display: flex;
+    list-style-type: none;
+    flex:1;
+     margin-right: 30px;
+
 }
 .Main
 {
     display: flex;
     
+    
 }
 .card1:hover {
- box-shadow: 0px 0px 30px 1px rgba(72, 184, 28, 0.5);
+ box-shadow: 0px 0px 30px 1px rgba(18, 156, 52, 0.5);
 }
 li
 {
     display: flex;
+    flex-direction: column;
+    gap: 10px;
+    animation: 1.2a;
+    
+   
+}
+
+
+li:hover
+{
+transform:scale(1.05);
 }
 .Movie-title
 {
@@ -40,7 +64,7 @@ li
 }
 .MovieImg
 {
-       width: 190px;
+    width: 190px;
     height: 254px;
     border-radius: 20px;
     object-fit: cover;
@@ -70,6 +94,36 @@ li
     .card1:hover {
           box-shadow: 0px 0px 30px 1px rgba(72, 184, 28, 0.5);
            }
-           box-shadow: 0px 0px 30px 1px rgba(72, 184, 28, 0.5);
+
+           box-shadow: 0px 0px 40px 1px rgba(28, 135, 184, 0.5);
 
  }
+ .ExploreMore
+ {
+    display: block;
+    text-align: right;
+    color: white;
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    animation:cubic-bezier(0.25, 0.1, 0.25, 1.1);
+
+}
+.ExploreMore:hover
+ {
+    color: #3a5bdc;
+    transform: calc(1.05);
+
+ }
+ 
+ @media (max-width: 768px) {
+    .card1 {
+        width: 100%;
+        height: auto;
+    }
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
